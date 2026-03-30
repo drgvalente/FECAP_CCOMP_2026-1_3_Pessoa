@@ -15,4 +15,13 @@ public class BulletController : MonoBehaviour
     {
         transform.Translate(0f, 0f, speed * Time.deltaTime);
     }
+
+    private void OnCollisionEnter(Collision col)
+    {
+        //Debug.Log(col.gameObject.GetComponent<Transform>().name);
+        if (col.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(col.gameObject);
+        }
+    }
 }
