@@ -21,6 +21,7 @@ public class BulletController : MonoBehaviour
         //Debug.Log(col.gameObject.GetComponent<Transform>().name);
         if (col.gameObject.CompareTag("Enemy"))
         {
+            Debug.Log("Acertou Inimigo");
             Destroy(col.gameObject);
         }
     }
