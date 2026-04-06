@@ -21,11 +21,7 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-<<<<<<< Updated upstream
         Debug.Log("Jogo começou");
-=======
-        Debug.Log("O jogo começou");
->>>>>>> Stashed changes
         Cursor.lockState = CursorLockMode.Locked; // "some" com o cursor do mouse
     }
 
