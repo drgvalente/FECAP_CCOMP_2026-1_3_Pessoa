@@ -24,8 +24,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked; // "some" com o cursor do mouse
-        rb = GetComponent<Rigidbody>();     // obtém o Rigidbody
-        rb.freezeRotation = true;           // impede o Rigidbody de rotacionar sozinho
+        rb = GetComponent<Rigidbody>(); // obtém o Rigidbody
+        rb.freezeRotation = true;       // impede o Rigidbody de rotacionar sozinho
     }
 
     // Update is called once per frame
